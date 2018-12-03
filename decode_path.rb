@@ -33,5 +33,7 @@ def decode_path(encoded_path)
   return path
 end
 
-path = 'uan~FdhjvOvk@i{M}qDwpB'
-p decode_path(path)
+if $0 == __FILE__
+  path = 'uan~FdhjvOvk@i{M}qDwpB'
+  p decode_path(path)
+end
